@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Chèn ảnh -->
+    <img id="vidu" src="./image/anh.jpg" alt="form-example">
+    <!-- ví dụ form -->
+    <form action="">
+        <label for="username"><i class="fa fa-user"></i>Username:</label>
+        <br>
+        <input type="text" name="username" id="username" placeholder="username" >
+        <br>
+        <label>
+            Email:
+            <br>
+            <input type="email" name="email" id="email" placeholder="email" required="true">
+        </label>
+
+
+
+
+        <br>
+        <label>
+            Password:
+            <br>
+            <input type="password" name="password" id="password" placeholder="password" required="true">
+        </label>
+        <br>
+
+
+
+        <label for="">
+            Ngày sinh
+            <input type="date" name="dob" id="dob" required="true">
+        </label>
+
+
+
+        <br>
+        <label for="">
+            Male
+            <input type="radio" name="gender" class="gender" value="male">
+        </label>
+        <label for="">
+            female
+            <input type="radio" name="gender" class="gender" value="female">
+        </label>
+        <label for="">others
+            <input type="radio" name="gender" class="gender" value="others">
+        </label>
+
+
+
+        <br>
+        <br>
+
+
+
+        <input type="checkbox" name="cb" id="cb" value="agree">
+        <label for="cb" id="cb-agree">I accept all the cookies</label>
+        <br>
+        <br>
+
+        <label for="color"></label>
+        <i class="fa-solid fa-user"></i></label>
+        <input type="color" name="color" id="color">
+
+        <br><br>
+        <label for="siblings" id="sib">Number of siblings</label>
+        <input type="number" name="siblings" id="siblings">
+
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+
+</html>

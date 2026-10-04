@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+        }
+
+        .item {
+            padding: 20px;
+            text-align: center;
+            border: solid black 1px;
+            border-collapse: collapse;
+        }
+
+        .item1 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            padding: 10px;
+            background-color: yellow;
+
+        }
+
+        .item2 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: red;
+        }
+
+        .item3 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+
+        .item4 {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+
+        .item7 {
+            background-color: yellow;
+        }
+
+        .item8 {
+            grid-row-start: 4;
+            grid-row-end: 7;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item9 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 6;
+            background-color: red;
+        }
+
+        .item10 {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 5;
+            grid-column-end: 8;
+        }
+
+        .item11 {
+            grid-column-start: 5;
+            grid-column-end: 8;
+            grid-row-start: 5;
+            grid-row-end: 7;
+            background-color: red;
+
+        }
+
+        .item12 {
+            grid-row-start: 7;
+            grid-row-end: 8;
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .item13 {
+            grid-row-start: 6;
+            grid-row-end: 8;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+
+        .item14 {
+            grid-column-start: 5;
+            grid-column-end: 8;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item item7"></div>
+        <div class="item item8"></div>
+        <div class="item item9"></div>
+        <div class="item item10"></div>
+        <div class="item item11"></div>
+        <div class="item item12"></div>
+        <div class="item item13"></div>
+        <div class="item item14"></div>
+    </div>
+</body>
+
+</html>

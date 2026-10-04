@@ -1,0 +1,53 @@
+#board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+
+}
+
+#header {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 7, 255);
+}
+
+#board2 {
+    border: 1px solid black;
+    list-style: none;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#board2 img {
+    object-fit: cover;
+
+}
+
+#board2 li {
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(200, 255, 0);
+}
+
+.nutback {
+    position: fixed;
+    bottom: 100px;
+    left: 1200px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.duongdan {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    color: cadetblue;
+}

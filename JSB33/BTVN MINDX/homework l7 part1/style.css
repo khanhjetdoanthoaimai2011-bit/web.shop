@@ -1,0 +1,84 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-brand {
+    margin-right: 100px;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav {
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.title-image {
+    height: 307.13px;
+    margin: auto;
+}
+
+.colored-section {
+    background-color: yellow;
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+.features{
+    padding: 7% 15%;
+}
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    display: flex;
+}
+
+.testimonial-image {
+    border-radius: 1000px;
+    height: 99px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Footer {
+    background-color: yellow;
+}
+
+.footer {
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}

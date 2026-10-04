@@ -1,0 +1,15 @@
+#p2{
+    color: green;
+}
+.kethua{
+    color: pink;
+}
+.child{
+    position: relative;
+}
+.child2{ 
+    position: absolute;
+}
+.child3{
+    position: fixed;
+}

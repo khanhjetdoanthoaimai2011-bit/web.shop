@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <select name="" id="colorSelect">
+            <option value="">Red</option>
+            <option value="">Green</option>
+            <option value="">Yellow</option>
+            <option value="">Blue</option>
+        </select>
+    </form>
+    <input type="button" value="Select and Remove" onclick="showDropDown()">
+    <script>
+
+
+        function showDropDown(){
+            let selectElement = document.getElementById('colorSelect')
+            let count = selectElement.options.length
+            let content = ""
+            for(let i = 0; i < count; i++)
+        {
+            content+= selectElement.options[i].text +"\n";
+        }
+            alert("Số lượng mục: " + count + "\n Nội dung các mục: \n" + content)
+        }
+        // function changeColor(){
+        //     let paragraph = document.getElementById('id1')
+        //     paragraph.style.backgroundColor = 'red'
+        // }
+        // let access = document.getElementById("id1");
+        // let code = access.innerHTML;
+        // code = code + " Hoa";
+
+        // access.style.backgroundColor = 'red'
+        
+        // access.style.color = 'red'
+        // access.innerHTML = code;
+        // console.log(person)
+
+        // console.log("ten cua toi la:", "dep trai")
+
+        // for (let i = 0; i < person.length; i++) {
+        //     console.log(person[i]);
+        // }
+
+        // person[0] = "ten"
+        // person.push("hoang12")
+        // person.splice(1, 0, "hoang21")
+
+        // let a = person.indexOf('khanh')
+        //arr.indexOf(phan tu) TH1: NẾU TỒN TẠI thì đưa ra kết quả là vị trí của mảng
+        // TH2 nếu như không tồn tại thì đưa ra -1
+        // console.log(a);
+        // person.splice(2, 6)
+        // console.log(person)
+
+
+
+
+        // key value
+        // let address = {
+        //     thon: "Tam Uy",
+        //     huyen: "Quang Ngoc",
+        //     tinh: "Thanh Hoa",
+        // }
+
+        // delete address.tinh
+        // console.log(address)
+        // address.quocGia = "vietnam";
+        // for (let a in address) {
+        //     console.log(a)
+        // }
+
+        // if ("Tam y".hasOwnProperty) {
+        //     console.log("co ton tai thuoc tinh Tam Uy")
+        // }
+        // else {
+        //     console.log("khong ton tai thuoc tinh nay")
+        // }
+
+        // if ("thon" in address) {
+        //     console.log("Co ton tai key ")
+        // }
+        // else {
+        //     console.log("khong co ton tai")
+        // }
+
+    </script>
+</body>
+
+</html>

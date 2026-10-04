@@ -1,0 +1,31 @@
+#bar{
+    display:flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+    width: 100%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 75px;
+}
+.box:hover{
+    background-color: gray;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    align-items: center;
+}
+.link:hover{
+    color: aqua;
+}

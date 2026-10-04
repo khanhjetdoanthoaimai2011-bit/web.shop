@@ -1,0 +1,82 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-template-rows: repeat(7, 1fr);
+    /* Khoảng cách các phần tử */
+    /* CÁCH 1 */
+    /* grid-column-gap: 10px; */
+    /* grid-row-gap: 25px; */
+    /* CÁCH 2 */
+    /* grid-gap: 25px 10px; */
+}
+.item1, .item2, .item3, .item4, .item5, .item6,
+.item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14{
+    padding: 5% 1%;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 30px;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: yellow;
+}
+.item2{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: red;
+}
+.item3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.item6{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.item7{
+    background-color: yellow;
+}
+.item8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.item9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: red;
+}
+.item10{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 8;
+}
+.item11{
+    grid-row: 5/7;
+    grid-column: 5/8;
+    background-color: red;
+}
+.item12{
+    grid-row: 6/8;
+    grid-column: 3/5;
+}
+.item13{
+    grid-row: 7/8;
+    grid-column: 1/3;
+    background-color: yellow;
+}
+.item14{
+    grid-row: 7/8;
+    grid-column: 5/8;
+}

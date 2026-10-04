@@ -1,0 +1,73 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    gap: 200px;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 0;
+    z-index: 100;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#Fan{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    border: 5px solid black;
+    top: 90px;
+    left: 0;
+    padding: 10px;
+}
+.fancard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+}
+#airconditioner{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    top: 1000px;
+    border: 5px solid black;
+    padding: 10px;
+}
+.airconditionercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+#button{
+    position: relative;
+    color: white;
+    background-color: black;
+    border-radius: 10px ;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    width: 30px;
+    bottom: 120px;
+    left: 120px;
+}
+#button:hover{
+    background-color: gray;
+    cursor: pointer;
+}

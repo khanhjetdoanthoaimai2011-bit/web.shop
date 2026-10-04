@@ -1,0 +1,32 @@
+blockquote{
+    color: red;
+}
+
+.a{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+.b{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+.c{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+ul{
+    list-style: disc;
+}
+
+ol{
+    list-style:upper-roman;
+}

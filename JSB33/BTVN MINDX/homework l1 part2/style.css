@@ -1,0 +1,23 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#picture{
+    height: 290px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:95%;
+    box-shadow: 5px 10px rgba(0,0,0,1);
+    border: 1px solid black;
+}
+.container ul{
+    font-weight: bolder;
+    font-size: 15px;
+}
+#description{
+    width: 278px;
+    font-weight: bolder;
+    font-style: italic;
+}

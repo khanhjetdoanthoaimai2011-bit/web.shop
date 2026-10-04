@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding: 0;
+            height: 2000px;
+            margin: 0;
+        }
+
+        html {
+            behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header" style="text-align: center;padding: 60px; font-size: larger;font-weight: bolder;">
+        Đây là portfolio của tôi
+    </header>
+    <div id="board">
+        <ul id="board2">
+            <li>Tên: Đinh Hoàng Khánh</li>
+            <li>tuổi: 15</li>
+            <li>Địa chỉ: Xã Quảng Ngọc, tỉnh Thanh Hoá</li>
+            <li>Trường: THPT Quảng Xương 2</li>
+            <li>Sở thích: chơi cờ vua</li>
+            <li>Kỹ năng: thuyết trình, học tiếng anh, và ăn</li>
+            <li><img src="https://lh3.googleusercontent.com/a/ACg8ocKFeIyTd9280_TxMvNziHTX69-5NrSdMcXTVZZVnvKTjWoSHElP=s288-c-no"
+                    alt=""></li>
+            <li class="duongdan"><a href="">Facebook</a><a href="">Insta</a><a href="">Youtube</a></li>
+        </ul>
+    </div>
+
+    <div class="nutback" onclick=goTop()>
+        <a style="text-decoration: none;color: black;"">
+            Quay về đầu trang
+        </a>
+    </div>
+    <footer id=" ft" style="text-align: center;padding: 100px;">
+            Copyright thuộc bản quyền sở hữu của khanhjet :)))
+            </footer>
+</body>
+<script>
+    function goTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+</script>
+
+</html>

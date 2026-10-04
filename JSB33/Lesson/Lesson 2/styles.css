@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Thanh điều hướng */
+nav{
+    background-color: #333;
+}
+
+/* CSS selector */
+    /* Chỉ chỉnh thẻ ul nằm trong thẻ nav */
+nav ul{
+    /* Kiểu hiện danh sách */
+    list-style: none;
+    /* Kiểu sắp xếp */
+    display: flex;
+}
+
+nav ul li a{
+    /* Hiển thị dạng block */
+    display: block;
+    color: white;
+    /* Thứ tự trên dưới - trái phải */
+    padding: 15px 20px;
+    /* Bỏ gạch chân */
+    text-decoration: none;
+}
+
+/* Hiệu ứng khi di chuột vào */
+nav ul li a:hover{
+    background-color: #575757;
+}
+
+/* PROFILE */
+#container{
+    /* căn lề giữa */
+    text-align: center;
+}
+
+h2{
+    color: #b30404;
+}
+
+.info-item{
+    /* Chỉnh font chữ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Chỉnh độ đạm nhạt */
+    font-weight: bold;
+    /* Cỡ chữ */
+    font-size: 15px;
+    /* Kiểu chữ */
+    font-style: italic;
+    /* text-decoration: underline; */
+
+}
+
+img{
+    height: 250px;
+    /* Chỉnh viền: kích thước - style - màu */
+    border: 2px solid black;
+    /* Bo viền */
+    border-radius: 200px;
+}

@@ -1,0 +1,301 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+
+}
+
+.title1 {
+    padding: 2% 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url(./anh/anhindex.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2 {
+
+    /* font-family: "Felipa", serif; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.chuyentrang {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.chuyentranglink {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.bieutuong {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    box-sizing: border-box;
+    gap: 3%;
+}
+
+.bieutuong a {
+    font-size: large;
+}
+
+.loigioithieu {
+    box-sizing: border-box;
+    width: 70%;
+    color: white;
+    padding: 6%;
+}
+
+.chu1 {
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+.chu2 {
+    font-size: 270%;
+    font-weight: 550;
+}
+
+.chu3 {
+    font-size: 200%;
+    font-weight: lighter;
+
+}
+
+
+
+/* .btn {
+    background-color: rgb(164, 124, 92);
+    z-index: 100;
+    width: fit-content;
+    padding: 3% 5%;
+    border-radius: 7%;
+} */
+
+.container1 {
+    padding: 0 5% 5% 5%;
+    background-color: rgb(244, 244, 236);
+}
+
+.content1 {}
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+}
+
+.imgcategory {
+    width: 100%;
+}
+
+.iconcategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* padding: 40% 0 0 0; */
+    gap: 20%;
+}
+
+.livingcater {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url(./anh/shopbycategory/livingroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60% 0 10% 0;
+    font-size: 165%;
+}
+
+
+.bedcater {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url(./anh/shopbycategory/bedroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60% 0 10% 0;
+    font-size: 165%;
+}
+
+.officecater {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url(./anh/shopbycategory/office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60% 0 10% 0;
+    font-size: 165%;
+}
+
+.kitcater {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url(./anh/shopbycategory/kitchen&dining.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60% 0 10% 0;
+    font-size: 165%;
+}
+
+.decorcater {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url(./anh/shopbycategory/decor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60% 0 10% 0;
+    font-size: 165%;
+}
+
+.bestsell {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1%;
+    margin-bottom: 50px;
+
+}
+
+
+.bestsell img {
+    width: 100%;
+    aspect-ratio: 317/232;
+    object-fit: cover;
+}
+
+.itembest {
+    outline: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 2;
+}
+
+.favorite i {
+    font-size: 18px;
+    color: #555;
+}
+
+.favorite .liked {
+    color: red;
+}
+
+.itembestcon {
+    display: flex;
+    padding: 5%;
+    font-size: larger;
+    gap: 2%;
+    justify-content: space-between;
+
+}
+
+.item button {
+    display: inline-flex;
+    width: 100%;
+
+    height: 70%;
+}
+
+
+
+.detail {
+    display: flex;
+    gap: 20px;
+}
+
+.detail #anh {
+    object-fit: cover;
+    width: 440px;
+    height: 100%;
+}
+
+#quote {
+    display: flex;
+    background-color: #f0e4dc;
+    width: 80%;
+}
+
+#quote2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0e4dc;
+    padding: 20px 30px;
+    gap: 1%;
+    justify-content: center;
+}
+
+#quote2 .quote2box {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+#quote2 span {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#quote2 span i {
+    color: #94744c;
+    width: 50px;
+    margin-left: 20%;
+}
+
+.quotedetail div {
+    font-size: 110%;
+}
+
+@media(max-width: 1150px) {
+    .detail {
+        display: flex;
+        flex-direction: column;
+    }
+}

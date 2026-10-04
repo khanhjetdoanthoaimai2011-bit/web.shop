@@ -1,0 +1,32 @@
+img{
+    height:300px
+}
+.box{
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 20px;
+    padding:20px;
+    display: flex;
+}
+.container{
+    display:flex;
+    gap:30px;
+}
+.BOX1{
+    border: 5px solid black;
+    background-color: bisque;
+    margin: 20px;
+    padding:20px;
+    width: 150px;
+    /* BOX SIZING */
+    box-sizing: content-box;
+}
+.BOX2{
+    border: 5px solid black;
+    background-color: bisque;
+    margin: 20px;
+    padding:20px;
+    width: 150px;
+    /* BOX SIZING */
+    box-sizing:border-box;
+}

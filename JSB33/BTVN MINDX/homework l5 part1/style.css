@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px
+}
+a:hover{
+    color: gray;
+}
+.Fan {
+    display: flex; 
+    flex-direction: column;
+}
+#title{
+    display: flex;
+    border: 5px solid black;
+    font-size: 40px;
+    height: 100px;
+    width: 100%;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.fan{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.fancard{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    align-items: center;
+    padding: 40px 40px;
+}

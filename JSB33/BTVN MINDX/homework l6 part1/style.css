@@ -1,0 +1,31 @@
+ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: black;
+    list-style: none;
+    gap: 70px;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+li{
+    font-size: 25px;
+}
+
+.item{
+    font-family: "Lora", serif;
+    text-decoration: none;
+    color: white;
+}
+.item:hover{
+    color: gray;
+}
+#picture{
+    height: 70px;
+}
+.the{
+    display: flex;
+}

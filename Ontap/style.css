@@ -1,0 +1,137 @@
+
+.navbar-collapse{
+    justify-content: center;
+    gap: 10%
+}
+.bannercontainer{
+    background-image: url("https://thumbs.dreamstime.com/b/coffee-cup-cafe-latte-beans-32206081.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannercontainer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* độ tối */
+}
+
+.banner {
+    position: relative;
+    z-index: 100; /* đảm bảo chữ nằm trên lớp tối */
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 9%;
+    gap: 10%;
+    width: 50%;
+}
+.banneritem{
+    color: white;
+}
+.banneritem1{
+    font-size: 300%;
+    font-weight: 900;
+}
+.banneritem2{
+    font-size: larger;
+    font-weight: 500;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+    margin: 5%;
+}
+.featureitem{
+    background-color: blanchedalmond;
+    padding: 3%;
+    border-radius: 10%;
+    transition: 0.3s ease;
+}
+.featureitem:hover {
+    transform: scale(1.1);
+  }
+.mainfeature{
+    color: 402424;
+}
+.popularitem{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+.catalogue{
+    display: flex;
+    gap: 10%;
+}
+.the{
+    border-radius: 10%;
+    width: 20%;
+}
+.anh{
+    width: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.anhgioithieu{
+    width: 100%;
+}
+.gioithieu{
+    width: 50%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(64, 36, 36);
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.footer2{
+    display: flex;
+    background-color: rgb(48, 28, 28);
+    color: white;
+    padding: 4% 0;
+    justify-content: space-between;
+}
+.name
+{
+
+    font-weight: 800;
+    font-size: larger;
+}
+.thongtin1{
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+}
+.thongtin2{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    color:white
+}

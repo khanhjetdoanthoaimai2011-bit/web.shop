@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.title {
+    padding: 35px;
+    font-size: xx-large;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+}
+
+.featureitem {
+    padding: 30px;
+    align-self: center;
+    font-size: larger;
+}
+
+.banner {
+    display: flex;
+    flex-flow: column;
+    padding: 190px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(https://cdn.tgdd.vn/Files/2018/11/22/1132942/top-game-online-hay-nhat-danh-cho-pc-3.jpg);
+    background-size: contain
+}
+
+.bannertitle {
+    font-size: xx-large;
+}
+
+.bannerdescription {
+    font-size: x-large;
+}
+
+.bannerbutton {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.bannerbutton:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#games {
+    display: grid;
+    padding: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.cacgame {
+    width: 248px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.cacgame img {
+    width: 248px;
+}
+
+.tengame {
+    text-align: center;
+    font-size: larger;
+}
+
+.bangxephang {
+    display: flex;
+    justify-content: center;
+
+}
+
+th,
+tr,
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+tr,
+th {
+    padding: 20px 40px;
+    ;
+}
